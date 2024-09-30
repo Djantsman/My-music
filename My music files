@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Music Brand</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Music Brand</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to [Your Music Brand]</h2>
+        <p>Explore the world of music production.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Your bio and background in music production.</p>
+    </section>
+
+    <section id="music">
+        <h2>My Music</h2>
+
+        <!-- Album 1 -->
+        <div class="album">
+            <img src="album1-cover.jpg" alt="Album 1 Cover">
+            <div class="album-info">
+                <h3>Album Title 1</h3>
+                <p>Release Date: [Date]</p>
+                <div class="music-links">
+                    <a href="https://spotify.com/album1" target="_blank">Listen on Spotify</a>
+                    <a href="https://music.apple.com/album1" target="_blank">Listen on Apple Music</a>
+                    <a href="https://youtube.com/album1" target="_blank">Watch on YouTube</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Album 2 -->
+        <div class="album">
+            <img src="album2-cover.jpg" alt="Album 2 Cover">
+            <div class="album-info">
+                <h3>Album Title 2</h3>
+                <p>Release Date: [Date]</p>
+                <div class="music-links">
+                    <a href="https://spotify.com/album2" target="_blank">Listen on Spotify</a>
+                    <a href="https://music.apple.com/album2" target="_blank">Listen on Apple Music</a>
+                    <a href="https://youtube.com/album2" target="_blank">Watch on YouTube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Production, Mixing, Mastering, etc.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email and social links.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Music Brand</p>
+    </footer>
+</body>
+</html>
